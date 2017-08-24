@@ -16,6 +16,7 @@ When instances are terminated, only those instances which match the `count_tag:`
 
 ### Examples
 `ansible-playbook create.yml --tags="create" -e @extra_vars.yml`
+
 `ansible-playbook terminate.yml --tags="terminate" -e @extra_vars.yml`
 
 
@@ -44,5 +45,6 @@ This role uses the ec2 module to create or terminate ec2 instances.  It takes ad
 to ensure you are creating exactly the number of instances you need and only terminating those same instances.
 
 ### Roles variables
-ec2_wait: yes
-ec2_exact_count: 1
+`ec2_wait: yes`
+
+`ec2_exact_count: 1`
