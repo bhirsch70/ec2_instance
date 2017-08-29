@@ -1,2 +1,2 @@
-# Role: ec2_common
-- ec2 common tasks
+# Role: ec2_instance
+- Create or terminate ec2 instance
