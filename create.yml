@@ -5,9 +5,5 @@
   become: no
   gather_facts: yes
 
-  vars:
-    ec2_exact_count: 1
-    ec2_wait: yes
-
   roles:
     - ec2_instance
