@@ -1,9 +1,9 @@
 # Define AWS EC2 parameters required to provision instances
-ec2_keypair: ansible-bh
+ec2_keypair: bhirsch
 ec2_type: t2.small
-ec2_image: ami-c5a094bf
+ec2_image: ami-0d70a070
 ec2_region: us-east-1
-ec2_group_id: sg-12a98e6f
-ec2_vpc_subnet_id: subnet-b70447fe
+ec2_group_id: sg-0129a2a3cba254af9
+ec2_vpc_subnet_id: subnet-06748fb0e574243dc
 ec2_instance_name: demo
 ec2_instance_prefix: bh
